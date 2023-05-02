@@ -36,6 +36,6 @@ if (numero < 0 || numero > 99999999) {
   if (letra != letraSel) {
     alert("La letra indicada no es correcta");
   } else {
-    alert("El numero + " + numero + " y  la letra " + letra + " son correctos");
+    alert("El numero " + numero + " y  la letra " + letra + " son correctos");
   }
 }
