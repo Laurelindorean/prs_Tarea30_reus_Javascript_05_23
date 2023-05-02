@@ -29,3 +29,28 @@ alert(
     " = " +
     resultado4
 );
+
+let num1 = valores[1];
+let num2 = valores[5];
+
+let suma = num1 + num2;
+alert("La suma de los valores " + num1 + " y " + num2 + " es : " + suma);
+
+let resta = num1 - num2;
+alert("La resta de los valores " + num1 + " y " + num2 + " es : " + resta);
+
+let multiplicacion = num1 * num2;
+alert(
+  "La multiplicación de los valores " +
+    num1 +
+    " y " +
+    num2 +
+    " es : " +
+    multiplicacion
+);
+
+let division = num1 / num2;
+alert("La divisió de los valores " + num1 + " y " + num2 + " es : " + division);
+
+let modulo = num1 % num2;
+alert("El módulo de los valores " + num1 + " y " + num2 + " es : " + modulo);
